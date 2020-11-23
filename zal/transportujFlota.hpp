@@ -12,7 +12,7 @@ unsigned int transportujFlota(unsigned int towar)
         Stocznia stocznia;
         Statek* statek = stocznia();
         towar_statku = statek->transportuj();
-        towar_calkowity = towar_calkowity + towar_statku;
+        // towar_calkowity = towar_calkowity + towar_statku;
         Zaglowiec *wskaznik = dynamic_cast<Zaglowiec*>(statek);
         if (wskaznik != nullptr) licznik++;
         delete statek;

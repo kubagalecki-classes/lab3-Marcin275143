@@ -17,5 +17,5 @@ unsigned int transportujFlota(unsigned int towar)
         if (wskaznik != nullptr) licznik++;
         delete statek;
     }
-    return 0;
+    return licznik;
 }
